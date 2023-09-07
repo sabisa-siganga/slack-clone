@@ -1,0 +1,66 @@
+.sections-container {
+  display: grid;
+  grid-template-columns: 53% 45%;
+  grid-column-gap: 2%;
+  justify-items: start;
+  background: #460c48;
+  color: #fff;
+
+  .first-section {
+    padding-left: 48px;
+
+    .sign-up {
+      h1 {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 68px;
+        margin: 0;
+        max-width: 608.4px;
+        text-align: left;
+        text-size-adjust: 100%;
+
+        span {
+          color: #ecb22e;
+        }
+      }
+      p {
+        margin-right: 91.8906px;
+        margin-top: 8px;
+        max-width: 560px;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.66px;
+      }
+    }
+
+    .signButtons {
+      display: flex;
+      column-gap: 20px;
+
+      .email-parent {
+        .email-container,
+        .google-container {
+          width: 256px;
+          height: 57px;
+        }
+
+        .email,
+        .google {
+          font-size: 14px;
+          font-weight: 700;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .second-section {
+    .vid {
+      .sign-video {
+        max-width: 700px;
+        max-height: 400px;
+      }
+    }
+  }
+}
