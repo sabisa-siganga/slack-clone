@@ -14,19 +14,28 @@ function Header() {
       </div>
 
       <Navbar>
-        <Link href="/features">Features</Link>
-        <span className="material-symbols-outlined drop-down-arrow">
-          arrow_drop_down
-        </span>
-        <Link href="/solutions">Solutions</Link>
-        <span className="material-symbols-outlined drop-down-arrow">
-          arrow_drop_down
-        </span>
+        <Link href="/features" className="d-flex">
+          Features
+          <span className="material-symbols-outlined drop-down-arrow">
+            arrow_drop_down
+          </span>
+        </Link>
+
+        <Link href="/solutions" className="d-flex">
+          Solutions{" "}
+          <span className="material-symbols-outlined drop-down-arrow">
+            arrow_drop_down
+          </span>
+        </Link>
+
         <Link href="/enterprise">Enterprise</Link>
-        <Link href="/resources">Resources</Link>
-        <span className="material-symbols-outlined drop-down-arrow">
-          arrow_drop_down
-        </span>
+        <Link href="/resources" className="d-flex">
+          Resources
+          <span className="material-symbols-outlined drop-down-arrow">
+            arrow_drop_down
+          </span>
+        </Link>
+
         <Link href="/pricing">Pricing</Link>
       </Navbar>
       <div className="left-nav-side">
