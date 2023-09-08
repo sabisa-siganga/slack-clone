@@ -7,21 +7,27 @@ function SignUp() {
     <div className="sections-container">
       <div className="first-section">
         <div className="sign-up pt-4">
+          {/* title of this section */}
           <h1>
             Made for people. <span> Built for productivity.</span>
           </h1>
+          {/* paragraph of the section */}
           <p className="mt-4">
             Connect the right people, find anything you need and automate the
             rest. That's work in Slack, your productivity platform.
           </p>
         </div>
 
+        {/* sign up buttons container*/}
         <div className="signButtons">
           <div className="email-parent">
+            {/* sign up with email btton */}
             <span className="email btn btn-secondary">SIGN UP WITH EMAIL</span>
           </div>
 
+          {/* signup with google button */}
           <div className=" btn btn-primary google-container">
+            {/* google logo */}
             <span className="svg">
               <ReactLogo />
             </span>
@@ -35,6 +41,7 @@ function SignUp() {
 
       <div className="second-section">
         <div className="vid">
+          {/* video of the section */}
           <video
             className="sign-video"
             role="img"
@@ -45,6 +52,7 @@ function SignUp() {
             autoPlay
             poster="https://a.slack-edge.com/b211f31/marketing/img/homepage/true-prospects/animations/static/ia4-hero-product-ui.jpg"
           >
+            {/* source of the video */}
             <source
               src="/dev-cdn/v/marketing/img/homepage/true-prospects/animations/webm/ia4-hero-product-ui.webm"
               type="video/webm"

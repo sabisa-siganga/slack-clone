@@ -4,6 +4,7 @@ import SectionInfo from "../sectionInfo/sectionInfo";
 
 function Communication() {
   return (
+    // This section is about  forms of communication for teams
     <div className="communication">
       <SectionInfo
         videoTitle="A user starting a huddle and recording a video clip the Slack app"

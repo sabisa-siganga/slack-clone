@@ -13,10 +13,12 @@ function Companies() {
   return (
     <div className="companies-container  ">
       <div className="comp-title pt-5">
+        {/* heading of companies' section */}
         <p>TRUSTED BY COMPANIES ALL OVER THE WORLD</p>
       </div>
 
       <div className="pt-4">
+        {/* logos of some of the companies using slack */}
         <div className="logos">
           <Image src={airbnb} />
           <Image src={nasa} />
@@ -26,6 +28,7 @@ function Companies() {
           <Image src={etsy} />
         </div>
 
+        {/* This section is about  integrating work quickly in teams */}
         <SectionInfo
           videoTitle="Using the Workday integration to quickly file an expense report in the Slack app"
           videoSrc="https://a.slack-edge.com/221d25b/marketing/img/homepage/e2e-prospects/animations/webm/speed.webm"

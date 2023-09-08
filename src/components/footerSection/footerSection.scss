@@ -1,3 +1,4 @@
+// styling of .sales-section
 .sales-section {
   background: #4a154b;
   border: none;
@@ -6,6 +7,7 @@
   padding-top: 80px;
   padding-bottom: 80px;
 
+  // styling of title
   h1 {
     color: #fff;
     text-align: center;
@@ -13,12 +15,14 @@
     font-weight: 700;
   }
 
+  // styling of buttons
   .buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 10px;
 
+    // styling of liks
     a {
       width: 200px;
       height: 50px;
@@ -31,6 +35,7 @@
       text-decoration: none;
     }
 
+    // styling of free button
     .forFree {
       background: #fff;
       color: #611f69;
@@ -43,6 +48,7 @@
       }
     }
 
+    // styling of sales button
     .sales {
       background: #611f69;
       color: #fff;
@@ -57,12 +63,14 @@
   }
 }
 
+// styling of footer
 footer {
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 35px;
 
+  // styling of span
   span {
     font-size: 12px;
     font-weight: 400;
@@ -72,4 +80,13 @@ footer {
     text-align: left;
     text-size-adjust: 100%;
   }
+}
+
+// styling of webpage class
+.webpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  font-style: italic;
 }

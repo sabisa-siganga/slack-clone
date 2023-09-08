@@ -1,3 +1,4 @@
+// styling of the sections container
 .sections-container {
   overflow: hidden;
   display: grid;
@@ -9,9 +10,11 @@
   padding-bottom: 80px;
   padding-top: 20px;
 
+  // styling of the first section class
   .first-section {
     padding-left: 48px;
 
+    // styling of the paragraph
     .p-tag {
       font-size: 20px;
       font-weight: 400;
@@ -20,6 +23,7 @@
       line-height: 26.66px;
     }
 
+    // styling of the title in signup class
     .sign-up {
       h1 {
         font-size: 60px;
@@ -29,11 +33,13 @@
         max-width: 608.4px;
         text-align: left;
         text-size-adjust: 100%;
-
+        // styling of the span
         span {
           color: #ecb22e;
         }
       }
+
+      // styling of the sections containerstyling of the paragraph
       p {
         margin-right: 91.8906px;
         max-width: 560px;
@@ -44,12 +50,14 @@
       }
     }
 
+    // styling of the buttons container
     .signButtons {
       display: flex;
       column-gap: 15px;
       flex-wrap: wrap;
       row-gap: 15px;
 
+      // stling of the email parent class
       .email-parent {
         .email {
           background: #fff;
@@ -83,6 +91,7 @@
         }
       }
 
+      // stling of the .google-container class
       .google-container {
         background: #4284f3;
         display: flex;
@@ -93,6 +102,7 @@
         height: 57px;
         border-radius: 4px;
 
+        // styling of the google class
         .google {
           font-size: 14px;
           font-weight: 700;
@@ -103,6 +113,8 @@
           padding-right: 16px;
           text-size-adjust: 100%;
         }
+
+        // styling of the google logo
         .svg {
           width: 49px;
           height: 49px;
@@ -115,7 +127,8 @@
     }
   }
 
-  .second-section {
+  // styling of the second section class along with vid  and sign-video classes
+  .sign-video .second-section {
     .vid {
       .sign-video {
         max-width: 700px;
@@ -125,18 +138,23 @@
   }
 }
 
+// adding a breaking point
 @media (max-width: 1022px) {
+  // styling of the email-parent class on breakpoint
   .email-parent {
     width: 100%;
 
+    // styling of the  email class on breakpoint
     .email {
       width: 100%;
     }
   }
 
+  // styling of the google-container class on breakpoint
   .google-container {
     width: 100%;
 
+    // styling of google class on breakpoint
     .google {
       width: 100%;
     }

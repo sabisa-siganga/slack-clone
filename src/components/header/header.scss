@@ -1,3 +1,4 @@
+// styling of the header container
 .header {
   background: #460c48;
   display: flex;
@@ -5,9 +6,12 @@
   justify-content: center;
   margin: 0;
 
+  // styling of nav bar
   .navbar {
     column-gap: 20px;
   }
+
+  // styling of navbar links
   a {
     color: #fff;
     text-decoration: none;
@@ -15,9 +19,12 @@
     font-size: 15px;
   }
 
+  // styling of down-arrows on the navbar links
   .drop-down-arrow {
     color: #fff;
   }
+
+  // styling of .left-nav-side class
   .left-nav-side {
     display: flex;
     width: 100%;
@@ -25,23 +32,27 @@
     column-gap: 20px;
     padding-right: 60px;
 
+    //  styling of the .searchSign class
     .searchSign {
       display: flex;
       justify-content: center;
       align-items: center;
       column-gap: 20px;
 
+      //  styling of the span
       span {
         color: #fff;
       }
     }
 
+    //  styling of the buttons container
     .buttons {
       display: flex;
       column-gap: 20px;
       align-items: center;
       justify-content: center;
 
+      //  styling of the white button
       .white {
         background: #fff;
         color: #611f69;
@@ -58,6 +69,7 @@
         }
       }
 
+      //  styling of the purple button
       .purple {
         background: #611f69;
         font-size: 14px;

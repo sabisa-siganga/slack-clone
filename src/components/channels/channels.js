@@ -4,6 +4,7 @@ import SectionInfo from "../sectionInfo/sectionInfo";
 
 function Channels() {
   return (
+    // This section is about  channels connecting teams
     <div className="channels-container">
       <SectionInfo
         videoTitle="A connected team discussing work in multiple channels in the Slack appp"

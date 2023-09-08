@@ -10,9 +10,11 @@ function Header() {
     // Navigation menu component to display navigation links
     <header className="header py-4">
       <div className=" px-5">
+        {/* slack logo */}
         <ReactLogo />
       </div>
 
+      {/* Navbar links */}
       <Navbar>
         <Link href="/features" className="d-flex">
           Features
@@ -43,6 +45,8 @@ function Header() {
           <span class="material-symbols-outlined">search</span>
           <Link href="#pricing">Sign in </Link>
         </div>
+
+        {/* Buttons on the bavbar */}
         <div className="buttons">
           <Button className="btn btn-dark purple ">TALK FOR SALES</Button>
           <Button className="btn btn-dark white ">TRY FOR FREE</Button>
@@ -53,7 +57,3 @@ function Header() {
 }
 
 export default Header;
-
-// search icon
-
-//

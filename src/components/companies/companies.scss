@@ -1,6 +1,10 @@
+// styling of the companies container
 .companies-container {
   background: #f4ede4;
+
+  // styling of the companies title
   .comp-title {
+    // styling of the paragraph
     p {
       font-size: 14px;
       font-weight: 700;
@@ -10,6 +14,7 @@
     }
   }
 
+  // styling of the logos
   .logos {
     display: flex;
     align-items: center;

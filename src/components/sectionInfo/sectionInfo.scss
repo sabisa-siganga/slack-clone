@@ -1,3 +1,4 @@
+// styling of the work tools container
 .work-tools {
   display: flex;
   column-gap: 10.9756%;
@@ -8,7 +9,9 @@
   padding: 48px 0;
   margin: 0;
 
+  //   styling of the work video class
   .work-video {
+    //   styling of the video
     video {
       align-items: center;
       box-sizing: border-box;
@@ -23,9 +26,12 @@
       display: grid;
     }
   }
+
+  //   styling of the tools class
   .tools {
     max-width: 480px;
 
+    //   styling of the title
     h2 {
       font-size: 45px;
       color: rgb(0, 0, 0);
@@ -42,6 +48,7 @@
       margin-inline-start: 0px;
       margin-top: 0px;
     }
+    //   styling of the paragraph
     p {
       font-size: 18px;
       font-weight: 500;
@@ -49,6 +56,8 @@
       line-height: 25px;
       letter-spacing: 0.2px;
     }
+
+    //   styling of the link
     a {
       font-size: 18px;
       font-weight: 500;
