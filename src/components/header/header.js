@@ -22,7 +22,7 @@ function Header() {
         <span className="material-symbols-outlined drop-down-arrow">
           arrow_drop_down
         </span>
-        <Link href="/enterprice">Enterprise</Link>
+        <Link href="/enterprise">Enterprise</Link>
         <Link href="/resources">Resources</Link>
         <span className="material-symbols-outlined drop-down-arrow">
           arrow_drop_down

@@ -4,9 +4,6 @@ import SignUp from "../../components/signUp/signUp";
 import Companies from "../../components/companies/companies";
 import Communication from "../../components/communication/communication";
 import Channels from "../../components/channels/channels";
-import Teams from "../../components/teams/teams";
-import Testimonies from "../../components/testimonies/testimonies";
-import Card from "../../components/card/card";
 import Footer from "../../components/footerSection/footerSection";
 
 function LandingPage() {
@@ -54,25 +51,6 @@ function LandingPage() {
       </section>
       <section>
         <Channels />
-      </section>
-      <section>
-        <Teams />
-      </section>
-      <section>
-        <Testimonies />
-      </section>
-      <section>
-        {cards.slice(0, 1).map((card, index) => {
-          return (
-            <Card
-              image={card.image}
-              category={card.category}
-              title={card.title}
-              link={card.link}
-              key={index}
-            />
-          );
-        })}
       </section>
       <section>
         <Footer />

@@ -6,8 +6,8 @@ function SignUp() {
   return (
     <div className="sections-container">
       <div className="first-section">
-        <div className="sign-up">
-          <h1 className="pt-5">
+        <div className="sign-up pt-4">
+          <h1>
             Made for people. <span> Built for productivity.</span>
           </h1>
           <p className="mt-4">
@@ -15,16 +15,21 @@ function SignUp() {
             rest. That's work in Slack, your productivity platform.
           </p>
         </div>
+
         <div className="signButtons">
           <div className="email-parent">
             <span className="email btn btn-secondary">SIGN UP WITH EMAIL</span>
           </div>
+
           <div className=" btn btn-primary google-container">
             <span className="svg">
               <ReactLogo />
             </span>
             <span className="google"> SIGN WITH GOOGLE</span>
           </div>
+        </div>
+        <div className="p-tag">
+          <p>Slack is free to try for as long as you’d like</p>
         </div>
       </div>
 

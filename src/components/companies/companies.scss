@@ -1,0 +1,24 @@
+.companies-container {
+  background: #f4ede4;
+  .comp-title {
+    p {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 15.75px;
+      letter-spacing: 0.8px;
+      text-align: center;
+    }
+  }
+
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 1010px;
+    margin: 0 auto;
+  }
+}
