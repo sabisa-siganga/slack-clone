@@ -8,19 +8,19 @@ function SignUp() {
       <div className="first-section">
         <div className="sign-up">
           <h1 className="pt-5">
-            Made for people. <span> Built for productivity</span>
+            Made for people. <span> Built for productivity.</span>
           </h1>
           <p className="mt-4">
             Connect the right people, find anything you need and automate the
-            rest. That's work in Slack, tout productivity platform
+            rest. That's work in Slack, your productivity platform.
           </p>
         </div>
         <div className="signButtons">
           <div className="email-parent">
             <span className="email btn btn-secondary">SIGN UP WITH EMAIL</span>
           </div>
-          <div className=" btn btn-primary email-parent">
-            <span>
+          <div className=" btn btn-primary google-container">
+            <span className="svg">
               <ReactLogo />
             </span>
             <span className="google"> SIGN WITH GOOGLE</span>

@@ -1,17 +1,20 @@
 .sections-container {
+  overflow: hidden;
   display: grid;
   grid-template-columns: 53% 45%;
   grid-column-gap: 2%;
   justify-items: start;
   background: #460c48;
   color: #fff;
+  padding-bottom: 80px;
+  padding-top: 104px;
 
   .first-section {
     padding-left: 48px;
 
     .sign-up {
       h1 {
-        font-size: 64px;
+        font-size: 60px;
         font-weight: 700;
         line-height: 68px;
         margin: 0;
@@ -25,7 +28,6 @@
       }
       p {
         margin-right: 91.8906px;
-        margin-top: 8px;
         max-width: 560px;
         text-align: left;
         font-size: 20px;
@@ -36,9 +38,27 @@
 
     .signButtons {
       display: flex;
-      column-gap: 20px;
+      column-gap: 15px;
 
       .email-parent {
+        .email {
+          background: #fff;
+          color: #460c48;
+
+          &:hover {
+            box-shadow: inset 0 0 0 2px #611f69;
+          }
+        }
+
+        span {
+          letter-spacing: 0.8px;
+          line-height: 17.9998px;
+          padding-bottom: 20px;
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-top: 19px;
+          text-align: center;
+        }
         .email-container,
         .google-container {
           width: 256px;
@@ -50,6 +70,35 @@
           font-size: 14px;
           font-weight: 700;
           text-align: center;
+        }
+      }
+
+      .google-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        padding-left: 4px;
+        height: 57px;
+        border-radius: 4px;
+
+        .google {
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 0.8px;
+          line-height: 17.9998px;
+          margin-left: 0px;
+          padding-left: 12px;
+          padding-right: 16px;
+          text-size-adjust: 100%;
+        }
+        .svg {
+          width: 49px;
+          height: 49px;
+          background: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
       }
     }
